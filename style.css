@@ -1,4 +1,3 @@
-
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
 * {
 	padding: 0;
@@ -8,7 +7,7 @@
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
-	scroll-behavior: smooth;
+	scroll-behavior: auto	;
 }
 a {
 	text-decoration: none;
@@ -27,15 +26,15 @@ img {
 }
 p {
 	color: black;
-	font-size: 1.4rem;
+	font-size: 20px;
 	margin-top: 5px;
 	line-height: 2.5rem;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 0.05rem;
 }
 .section-title {
 	font-size: 4rem;
-	font-weight: 300;
+	font-weight: 700;
 	color: black;
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -118,9 +117,8 @@ p {
 	font-size: 2.5rem;
 	font-weight: 500;
 	letter-spacing: 0.2rem;
-	text-decoration: none;
+	text-decoration: initial;
 	color: white;
-	text-transform: uppercase;
 	padding: 20px;
 	display: block;
 }
@@ -292,8 +290,6 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/Photo1.jpg);
-	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
 	z-index: 1;
@@ -306,14 +302,35 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #071711 0%, #e8363ede 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
-#services .service-bottom .icon {
+#services .service-bottom .icon1 {
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
+	background-image: url(img/fashion.png);
+	background-size: cover;
+}
+#services .service-bottom .icon2 {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+	background-image: url(img/wedding.png);
+	background-size: cover;
+}#services .service-bottom .icon3 {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+	background-image: url(img/travel.png);
+	background-size: cover;
+}#services .service-bottom .icon4 {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+	background-image: url(img/candid.png);
+	background-size: cover;
 }
 #services .service-item h2 {
 	font-size: 2rem;
@@ -361,7 +378,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, #071711 0%, #e8363ede 100%);
 	color: white;
 }
 #projects .project-info h1 {
@@ -389,7 +406,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	/* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
 	opacity: 0.7;
 }
 #projects .project-img img {
