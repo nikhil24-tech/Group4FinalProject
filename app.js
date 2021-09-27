@@ -11,9 +11,9 @@ hcontainer.addEventListener('click', () => {
 document.addEventListener('scroll', () => {
 	var scroll_position = window.scrollY;
 	if (scroll_position > 250) {
-		header.style.backgroundColor = '#29323c';
+		header.style.backgroundColor = '#0A1D37';
 	} else {
-		header.style.backgroundColor = 'transparent';
+		header.style.backgroundColor = '#630A10';
 	}
 });
 
