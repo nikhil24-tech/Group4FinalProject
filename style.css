@@ -7,7 +7,7 @@
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
-	scroll-behavior: auto	;
+	scroll-behavior: smooth	;
 }
 a {
 	text-decoration: none;
@@ -473,7 +473,6 @@ p {
 	width: 90%;
 }
 #contact .contact-items {
-	/* max-width: 400px; */
 	width: 100%;
 }
 #contact .contact-item {
